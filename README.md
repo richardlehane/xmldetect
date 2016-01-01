@@ -21,3 +21,5 @@ if err == nil && dec && tag == "doc" && ns == "ex" {
 Install with `go get github.com/richardlehane/xmldetect`
 
 [![Build Status](https://travis-ci.org/richardlehane/xmldetect.png?branch=master)](https://travis-ci.org/richardlehane/xmldetect) [![GoDoc](https://godoc.org/github.com/richardlehane/xmldetect?status.svg)](https://godoc.org/github.com/richardlehane/xmldetect)
+
+Licensed under the Apache License, Version 2.0
