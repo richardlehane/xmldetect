@@ -31,6 +31,21 @@ var tests = []struct {
 		"http://www.adele.com",
 		`<?xml version="1.0" encoding="UTF-8" ?>
 		<!-- comment --->
+		<adele:hello adele="http://www.adele.com">
+			<from>
+				the other
+				</side>
+			</from>
+		</hello>`,
+	},
+	{
+		nofail,
+		nil,
+		true,
+		"hello",
+		"http://www.adele.com",
+		`<?xml version="1.0" encoding="UTF-8" ?>
+		<!-- comment --->
 		<hello xmlns="http://www.adele.com">
 			<from>
 				the other
